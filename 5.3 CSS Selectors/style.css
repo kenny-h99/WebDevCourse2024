@@ -5,6 +5,7 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+<<<<<<< HEAD
 
 /* This selector focuses on paragraph elements */
 p{
@@ -31,3 +32,5 @@ li[value = "4"]{
 *{
   text-align: center;
 }
+=======
+>>>>>>> 52c058058b5bebd83d4cc0a76e79adbc3bd4c6fa
