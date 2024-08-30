@@ -1,0 +1,40 @@
+/* set all sizes to 200px height for div elements */
+
+div{
+    height: 200px; width: 200px;
+}
+
+
+/* specific to div with ID div1 background color, padding for font, and border size with color of border */
+#div1{
+    background-color: cadetblue;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+
+/* specific to div with ID div2 background color, border and color, border with for verticle then horizontal
+and then padding for margin spacing */
+#div2{
+    background-color: gold;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+    
+
+}
+
+
+/* set background color, border and margin */
+#div3{
+    background-color: indianred;
+    border: 10px solid black;
+    margin-left: 40px;
+    
+}
+
+
+/* since only one p we can specify all p */
+p{
+    margin: 0;
+}
