@@ -15,10 +15,21 @@
       border: 30px solid white;
       height: 100px;
       flex: 1;
+      
     }
 
     .first {
       flex: 2;
+      text-align: center;
+      font-weight: bolder;
+    }
+
+    .first.box{
+      height: 50%;
+      width: 50%;
+      background: white;
+      margin-top: 25px;
+      margin-left: 75px;
     }
 
     .second {
@@ -30,7 +41,11 @@
 <body>
   <h1>CSS Flexbox</h1>
   <div class="flex-container">
-    <div class="first card"></div>
+    <div class="first card"> 
+      <div class="first box">
+        first card
+      </div>
+    </div>
     <div class="second card"></div>
     <div class="card"></div>
     <div class="card"></div>
