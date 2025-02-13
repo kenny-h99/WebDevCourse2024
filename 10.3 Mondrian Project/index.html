@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Line Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      height: 748px;
+      width: 748px;
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap: 9px;
+    }
+    /* sets all items with class item in the name to be white */
+    .item {
+      background-color: #F0F1EC;
+    }
+
+    /* because presidence set the box to red */
+    .red {
+      background-color: #E72F24;
+    }
+
+    /* span this white box the rest of the screen */
+    .white1 {
+      grid-column: span 3;
+    }
+
+    /* span this white box the rest of the screen down */
+    .white2 {
+      grid-row: span 2;
+    }
+
+    .white3 {
+      grid-area: 2 / 2 / 4 /4
+    }
+
+    .blue {
+      background-color: #004592;
+      border-bottom: 10px solid #000;
+    }
+
+    .white4 {
+      grid-row: span 2;
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+    }
+
+    .black {
+      background-color: #232629;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+
+  <!-- create a container that houses all the items -->
+  <div class="container"> 
+
+    <!-- creating a class red -->
+    <div class="item red"></div>
+
+    <!-- creating a class white 1 for the first row -->
+    <div class="item white1"></div>
+
+    <!-- creating a class white 2 and 3 for second row -->
+    <div class="item white2"></div>
+    <div class="item white3"></div>
+
+    <!-- creating a class item blue and white4 for second row as well -->
+    <div class="item blue"></div>
+    <div class="item white4"></div>
+
+    <!-- creating a class item for the third row -->
+     <!-- create class yellow and black -->
+    <div class="item"></div>
+    <div class="item yellow"></div>
+    <div class="item black"></div>
+  </div>
+</body>
+
+</html>
